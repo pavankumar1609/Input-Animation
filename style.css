@@ -71,9 +71,9 @@ body {
   left: 0;
   border: 1px solid blue;
   width: 100%;
-  -webkit-transform: scale(0%);
-  -ms-transform: scale(0%);
-  transform: scale(0%);
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
   -webkit-transition: all 0.4s linear;
   -o-transition: all 0.4s linear;
   transition: all 0.4s linear;
@@ -81,7 +81,7 @@ body {
 
 .container input:focus + .form-label::before,
 .container input:valid + .form-label::before {
-  -webkit-transform: scale(100%);
-  -ms-transform: scale(100%);
-  transform: scale(100%);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
 }
